@@ -1,0 +1,11 @@
+@media only screen and (width:375px){
+   .learning nav{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+#ecourse nav h1{
+    color: blueviolet;
+    font-size: larger;
+}
+}

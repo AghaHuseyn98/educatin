@@ -1,0 +1,593 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+
+:root {
+    --mont: var('Montserrat', sans-serif);
+    --mukta: var('Mukta', sans-serif);
+    --color: #f6f5f4;
+}
+
+header {
+    background: #F6F5F4;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    flex-grow: 0.2;
+    justify-content: space-evenly;
+}
+
+header .menu image {}
+
+header .menu hr {
+    width: 0px;
+    height: 16.87px;
+    border: 1.20466px solid #E0E0E0;
+}
+
+header .menu li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+
+header .menu ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Black */
+
+    color: #757575;
+    text-decoration: none;
+
+}
+
+header .menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul .active a {
+    color: black;
+}
+
+header .menu ul li a:hover {
+    color: black;
+}
+
+header .sign a {
+    background: #C3DCE3;
+    border-radius: 100px;
+    width: 41px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 14px;
+    gap: 14px;
+    font-family: --mont;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B788B;
+    text-decoration: none;
+}
+
+header .sign p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+}
+
+header .sign button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Black */
+
+    color: #000000;
+    border: none;
+    background-color: transparent;
+}
+
+header nav {
+    padding: 33px 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav .sign {
+    display: flex;
+    align-items: center;
+    flex-grow: 0.1;
+    justify-content: space-evenly;
+}
+
+#ecourse {
+    background: #F6F5F4;
+    padding-bottom: 134.61px;
+}
+
+#ecourse nav h1 {
+    width: 221px;
+    /* height: 16px; */
+    /* font-weight 700den yuxari deyismir */
+
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+
+    /* Primaty/Cyan Dark */
+
+    color: #2B788B;
+    padding-top: 94.61px;
+    margin-bottom: 24px;
+}
+
+#ecourse nav h2 {
+    width: 480px;
+    /* height: 201px; */
+
+    /* Headings/Heading 1 */
+
+    font-family: 'Mukta', sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 56px;
+    line-height: 120%;
+    /* or 67px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Black */
+
+    color: #000000;
+}
+
+
+#ecourse nav p {
+    width: 396.89px;
+    /* height: 50px; */
+
+    /* Text/Body 1 */
+
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+    margin: 30px 0 32px 0;
+
+}
+
+#ecourse nav a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 22px;
+    gap: 19px;
+
+    width: 165px;
+    height: 44px;
+
+    /* Primaty/Cyan Light */
+
+    background: #C3DCE3;
+    border-radius: 100px;
+    /* width: 121px;
+    height: 16px; */
+
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+
+    color: #2B788B;
+    text-decoration: none;
+    margin-bottom: 48.78px;
+}
+
+#gen .learning {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.1;
+}
+
+.learning #mini {
+    display: flex;
+    align-items: center;
+    width: 352.55px;
+    justify-content: space-between;
+}
+
+/* ----ehtiyac var? hech neyi deyismir */
+#ecourse nav #mini img:nth-child(1) {
+    width: 163px;
+    height: 65px;
+    flex-grow: 0.1;
+    justify-content: space-between;
+}
+
+#ecourse nav #mini img:nth-child(2) {
+    width: 92px;
+    height: 65px;
+}
+
+.learning #mini hr {
+    width: 0px;
+    height: 48.78px;
+
+    /* Gray 5 */
+
+    border: 1.21942px solid #E0E0E0;
+}
+
+/* ----- */
+#ecourse #gen {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#ecourse #gen article img {
+    width: 933px;
+    height: 601px;
+    padding-top: 109px;
+}
+
+/* language */
+#language nav {
+    display: flex;
+    padding-bottom: 127.5px;
+}
+
+#language nav article img {
+    margin-right: 120px;
+    padding-top: 77.5px;
+}
+
+#language .sprint h1 {
+    /* Headings/Heading 2 */
+    font-family: 'Mukta', sans-serif;
+    font-weight: 1000;
+
+    font-style: normal;
+
+    font-size: 48px;
+    line-height: 100%;
+    /* or 48px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Black */
+
+    color: #000000;
+    padding-top: 121.5px;
+    margin-bottom: 30px;
+}
+
+#language .sprint h2 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+    margin-bottom: 30.5;
+
+}
+
+#language .shoes :nth-child(1) {
+    margin-right: 21.5px;
+}
+ 
+
+
+/* Increase */
+
+#increase {
+    background-color: var(--color);
+}
+
+#increase nav h1 {
+    width: 474.46px;
+    font-family: 'Mukta', sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 100%;
+    /* or 48px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Black */
+
+    color: #000000;
+    padding-top: 136.01px;
+    margin-bottom: 30px;
+}
+
+#increase nav h2 {
+    width: 396.89px;
+
+
+    /* Text/Body 1 */
+
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+}
+
+#increase nav button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 22px;
+    gap: 19px;
+
+
+
+    /* Primaty/Cyan Light */
+
+    background: #C3DCE3;
+    border-radius: 100px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    text-decoration: none;
+    color: #2B788B;
+    border: none;
+    margin: 34px 0 0 0;
+}
+
+#increase article img {
+    padding-top: 26.03px;
+}
+
+#increase .inc {
+    display: flex;
+}
+
+/* Progress */
+#progress nav {
+    display: flex;
+}
+
+#progress article img {
+    padding-top: 95.37px;
+}
+
+#progress nav .static h1 {
+    /* Headings/Heading 2 */
+    font-family: 'Mukta', sans-serif;
+    font-weight: 1000;
+
+    font-style: normal;
+
+    font-size: 48px;
+    line-height: 100%;
+    /* or 48px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Black */
+
+    color: #000000;
+    padding-top: 140px;
+    margin-bottom: 30px;
+}
+
+#progress nav .static h2 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+    margin-bottom: 30.5;
+}
+
+#progress nav .static button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 22px;
+    gap: 19px;
+
+
+
+    /* Primaty/Cyan Light */
+
+    background: #C3DCE3;
+    border-radius: 100px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    text-decoration: none;
+    color: #2B788B;
+    border: none;
+    margin: 34px 0 0 0;
+}
+
+/* footer
+ */
+
+footer {
+    background-color: var(--color);
+    padding-bottom: 43.63px;
+}
+
+footer .home .first,
+.second {
+
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ footer .home .first li:hover, .second li:hover{
+    color: #000000;
+ }
+
+footer .home {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer .home .first {
+    width: 414px;
+}
+
+footer .home .second {
+    width: 197px;
+}
+
+footer hr {
+    width: 1180px;
+    height: 0;
+
+    /* Primaty/Grey Medium */
+
+    border: 1.2px solid #E0E0E0;
+    /* transform: rotate(-90deg); */
+}
+footer .youtube{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 23.63px;
+}
+
+footer .youtube .three{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .youtube .four h1{
+    font-family: var(--mont);
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 12px */
+
+
+/* Primaty/Grey Dark */
+
+color: #757575;
+}
